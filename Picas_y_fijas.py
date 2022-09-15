@@ -25,8 +25,8 @@ def picas_y_fijas(numero_secreto:int,intento:int)->dict:
 
 # Interfaz
 
-numero_secreto:int(input("Ingrese el numero secreto de 4 caracteres de longuitud"))
-intento:int(input("Ingrese su numero intentado"))
+numero_secreto=int(input("Ingrese el numero secreto de 4 caracteres de longuitud"))
+intento=int(input("Ingrese su numero intentado"))
 
 hola=picas_y_fijas(numero_secreto,intento)
 print("El numero de fijas es de" , hola["FIJAS"]," y el numero de picas es", hola["PICAS"])
